@@ -12,3 +12,7 @@ connectDatabase()
     console.error("Unable to start server:", error.message);
     process.exit(1);
   });
+.catch((error) => {
+    console.error("Unable to start server:", error.message);
+    process.exit(1);
+  });
